@@ -6,37 +6,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="style.css">
     <title>main page</title>
 </head>
 
 <body>
-    <header>
+    <!-- начало верхнего блока -->
+    <header class="header">
         <div class="container">
-            <div class="row-top">
-                <div class="main-menu menu-default">
-                    <div class="container">
-                        <div class="menu-header">
-                            <button type="button" class="navbar-toggle navbar-left collapsed" data-toggle="collapse"
-                                data-target="#responsive-menu" aria-expanded="false">
-                                <span class="sr-only">Open navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <!-- <div class="pagination">
-                                <a href="" class="pagination-link"></a>
-                                <a href="" class="pagination-link"></a>
-                                <a href="" class="pagination-link"></a>
-                            </div> -->
-                        </div>
-                    </div>
+            <div class="header-inner">
+                <div class="logo">
+                    <a href="index.html" class="link-logo">
+                        <svg class="link-logo-svg" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="56">
+                            <path
+                                d="M52.873,55.128 L58.125,45.939 L63.377,55.128 L52.873,55.128 ZM46.303,45.172 L56.811,45.172 L51.557,54.359 L46.303,45.172 ZM51.557,34.451 L56.811,43.641 L46.303,43.641 L51.557,34.451 ZM39.738,33.686 L50.243,33.686 L44.990,42.874 L39.738,33.686 ZM44.990,22.967 L50.243,32.154 L39.738,32.154 L44.990,22.967 ZM33.168,22.202 L43.676,22.202 L38.422,31.390 L33.168,22.202 ZM38.422,11.480 L43.676,20.671 L33.168,20.671 L38.422,11.480 ZM26.600,10.713 L37.108,10.713 L31.854,19.905 L26.600,10.713 ZM31.854,-0.006 L37.108,9.184 L26.600,9.184 L31.854,-0.006 ZM20.032,20.671 L25.286,11.480 L30.540,20.671 L20.032,20.671 ZM13.465,32.154 L18.718,22.967 L23.971,32.154 L13.465,32.154 ZM6.897,43.641 L12.151,34.451 L17.404,43.641 L6.897,43.641 ZM0.331,55.128 L5.582,45.939 L10.836,55.128 L0.331,55.128 ZM17.404,45.172 L12.151,54.359 L6.897,45.172 L17.404,45.172 ZM23.971,33.686 L18.718,42.874 L13.465,33.686 L23.971,33.686 ZM30.540,22.202 L25.286,31.390 L20.032,22.202 L30.540,22.202 ZM37.108,55.128 L26.600,55.128 L31.854,45.939 L37.108,55.128 ZM43.676,45.172 L38.422,54.359 L33.168,45.172 L43.676,45.172 ZM50.243,55.128 L39.738,55.128 L44.990,45.939 L50.243,55.128 Z" />
+                        </svg><span class="link-logo-txt">Waxom</span>
+                    </a>
                 </div>
 
+                <nav class="nav" id="nav">
+                    <ul class="nav-ul">
+                        <li class="nav-li"><a href="#">Home</a></li>
+                        <li class="nav-li"><a href="#">About us</a></li>
+                        <li class="nav-li"><a href="#">Portfolio</a></li>
+                        <li class="nav-li"><a href="#">Features</a></li>
+                        <li class="nav-li"><a href="#">Blog</a></li>
+                        <li class="nav-li"><a href="#">Pricing</a></li>
+                        <li class="nav-li"><a href="#">Shortcodes</a></li>
+                        <li class="nav-li"><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
-
+    <div class="slick">
+        <div>
+            <div class="intro">
+                <div class="conateiner d-flex ">
+                    <div class="svg-arrow"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                            class="bi bi-chevron-left svg-arrow" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+                        </svg></div>
+                    <div class="intro-inner "><span class="intro-up-title">Уникальный и современный</span>
+                        <h2 class="intro-title">Добро пожаловать в Waxom</h2><span class="intro-text">Разнообразный и
+                            богатый опыт повышение уровня гражданского
+                            сознания способствует подготовке и реализации позиции,
+                            занимаемых участниками в отношении поставленных задач.</span><a href="#"
+                            class="btn">Начать</a>
+                    </div>
+                    <div class="svg-arrow"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                            class="bi bi-chevron-right svg-arrow" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                        </svg></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- конец верхнего блока -->
+    <section class="main-service">
+        <div class="container">
+            <div class="services">
+                <div class="service-item">
+                    <div class="service-inner">
+                        <a href="#">
+                            <div class="service-icon"><i class="fa fa-briefcase"></i></div>
+                            <div class="service-content">
+                                <h3 class="service-content-title">Unique & Clean</h3>
+                                <p class="service-discription">Nam liber tempor cum soluta nobis eleifend option
+                                    congue nihilita imperdiet doming id.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="service-inner">
+                        <a href="#">
+                            <div class="service-icon"><i class="fa fa-briefcase"></i></div>
+                            <div class="service-content">
+                                <h3 class="service-content-title">Unique & Clean</h3>
+                                <p class="service-discription">Nam liber tempor cum soluta nobis eleifend option
+                                    congue nihilita imperdiet doming id.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="service-inner">
+                        <a href="#">
+                            <div class="service-icon"><i class="fa fa-briefcase"></i></div>
+                            <div class="service-content">
+                                <h3 class="service-content-title">Unique & Clean</h3>
+                                <p class="service-discription">Nam liber tempor cum soluta nobis eleifend option
+                                    congue nihilita imperdiet doming id.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="service-inner">
+                        <a href="#">
+                            <div class="service-icon"><i class="fa fa-briefcase"></i></div>
+                            <div class="service-content">
+                                <h3 class="service-content-title">Unique & Clean</h3>
+                                <p class="service-discription">Nam liber tempor cum soluta nobis eleifend option
+                                    congue nihilita imperdiet doming id.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
