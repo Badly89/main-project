@@ -255,6 +255,7 @@
 .main-service {
     padding: 80px 0;
     position: relative;
+    margin-bottom: 90px;
 }
 
 .services {
@@ -264,9 +265,8 @@
     align-items: center;
 }
 
-.service-item {
-    /* display: flex; */
-
+.service-item{
+    padding-bottom: 50px;
 }
 
 .service-item a {
@@ -275,26 +275,35 @@
     justify-content: space-between;
     /* align-items: center; */
     text-decoration: none;
-    color: #c7b299;
-}
-
-.service-icon {
-    background: transparent;
     color: #363636;
-    opacity: 0.55;
-    font-size: 44px;
-    height: 72px;
-    /* position: relative; */
-    align-self: center;
 }
 
 .service-inner {
-
-    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    /* box-sizing: border-box; */
     padding-left: 15px;
     padding-right: 15px;
     width: 100%;
+    /* color: #363636; */
 }
+.service-inner .service-icon:hover{
+    color: orange;
+    /* fill: orange; */
+}
+.service-icon {
+    background: transparent;
+    /* opacity: 0.55; */
+    font-size: 44px;
+    height: 72px;
+    transition: color .3s;
+    
+}
+
+.fa-briefcase{
+    text-align: center;
+}
+
 
 .service-content {
     align-self: center;
@@ -311,17 +320,63 @@
     align-self: center;
     text-transform: none;
     transition: color .3s;
+    /* color: #363636; */
 }
 
-.service-description {
+.service-discription {
     font-size: 15px;
     line-height: 1.5em;
     margin-bottom: 15px;
+    transition: color .3s;
+    /* color: #363636; */
 }
 
-.service-item a:hover {
-    text-decoration: none !important;
-    outline: none;
-    color: gold;
-    animation-name: ;
+.fadeIn{
+    animation-name: fadeIn;
+}
+.animated{
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+@keyframes fadeIn{
+0% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}
+
+.relize{
+    width: 100%;
+   
+}
+.wrap{
+    padding-top: 90px;
+}
+.relize-content h2{
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+    color: rgb(85, 85, 85);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 80px;
+}
+.relize-content p{
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(140, 140, 140);
+    line-height: 1.75;
+    text-align: center;
+    margin-top: 15px;
+    padding-left: 230px;
+    padding-right: 230px;
+    padding-bottom: 40px;
+}
+.relize-image{
+    height: 480px;
+    background-image: url("img/bg_center.jpg"), url("img/bg_left.jpg"), url("img/bg_right.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom center, left bottom, right bottom;
 }
