@@ -27,12 +27,31 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    
-   
-    
-    
 }
+
+.pagination {
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    
+    /* background-color: darkgray; */
+  }
+  
+  .pagination-link {
+    display: block;
+    width: 10px;
+    min-height: 10px;
+    margin: 5px;
+    background-color: #ccc;
+    border-radius: 50%;
+    border: 2px solid transparent;
+  }
+  
+  .pagination-link:hover {
+    border: 2px solid gold;
+    background-color: transparent;
+  }
+
 
 /* logo start */
 .link-logo {
@@ -82,8 +101,7 @@
     width: 637px;
     /* можно попробовать задать min-width и max-width */
     padding: 0;
-    /* border: 1px solid black; */
-    /* background-color: #998675; */
+
 
     display: flex;
     justify-content: space-between;
@@ -100,9 +118,7 @@
     font-size: 14px;
     font-weight: 300;
     margin-right: 20px;
-    /* border: 1px solid black; */
-    /* transition: color .1s linear; */
-    /* background-color: #ccc; */
+
 }
 
 .nav-li a:hover {
@@ -113,19 +129,26 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    position: relative;
-
+    position: absolute;
     width: 100%;
     height: 100vh;
-    min-height: 850px;
+    padding-top: 70px;
+    /* min-height: 850px; */
 
-    background: linear-gradient(rgba(0, 0, 0, 0.7),
-            rgba(0, 0, 0, 0.5)), url("img/bg-intro.jpg") center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.5)) center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
+    z-index: 5;
 
+/* , url("img/bg-intro.jpg") */
+}
 
+.intro-img{
+    /* position: absolute; */
+    width: 100%;
+    height: 100vh;
+    /* opacity: .5; */
 }
 
 .intro-ice {
@@ -138,6 +161,12 @@
     background-color: rgba(0, 0, 0, 3);
 
 }
+.intro-wrap{
+    display: flex;
+    justify-content: center;
+    
+    
+}
 
 .intro-inner {
     width: 100%;
@@ -147,6 +176,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
+    margin-top: 150px;
 }
 
 .intro-up-title {
@@ -240,7 +270,8 @@
     /* align-self: baseline; */
     margin: 0 54px;
     fill: white;
-    font-size: 24px;
+    font-size: 20px;
+    align-self: center;
 }
 
 .svg-arrow:hover {
