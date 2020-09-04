@@ -450,32 +450,32 @@
 
 .block-reklama {
     background-color: #2f2928;
+    width: 100%;
 }
 
-.cta-inner {
+.reklama-inner {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%;
     height: auto;
     max-width: 1210px;
     padding: 60px 0px 50px;
-    /* position: relative; */
+    
     margin: 0 auto;
-    /* padding-bottom: 0; */
-    /* overflow: hidden; */
-  }
+    
+}
 
-  .cta-title{
+.reklama-title{
     line-height: 1.2em;
     margin-top: -6px;
     margin-bottom: -2px;
-  }
+}
 
-  .highlight-span{
+.highlight-span{
     font-weight: bold;
     color: #c7b299;
-  }
-  .cta-title{
+}
+.cta-title{
     line-height: 1.2em;
     margin-top: -6px;
     margin-bottom: -2px;
