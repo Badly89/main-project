@@ -8,6 +8,7 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
     <link href="http://fonts.googleapis.com/css?family=Raleway:300,900,100,600,400,500,800" rel="stylesheet"
         property="stylesheet" type="text/css" media="all">
     <link href="http://fonts.googleapis.com/css?family=Raleway:500,800,700" rel="stylesheet" property="stylesheet"
@@ -23,7 +24,6 @@
 <body>
     <!-- начало верхнего блока -->
     <header class="header">
-
         <div class="container">
             <div class="header-inner">
                 <div class="logo">
@@ -32,7 +32,8 @@
                             xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="56">
                             <path
                                 d="M52.873,55.128 L58.125,45.939 L63.377,55.128 L52.873,55.128 ZM46.303,45.172 L56.811,45.172 L51.557,54.359 L46.303,45.172 ZM51.557,34.451 L56.811,43.641 L46.303,43.641 L51.557,34.451 ZM39.738,33.686 L50.243,33.686 L44.990,42.874 L39.738,33.686 ZM44.990,22.967 L50.243,32.154 L39.738,32.154 L44.990,22.967 ZM33.168,22.202 L43.676,22.202 L38.422,31.390 L33.168,22.202 ZM38.422,11.480 L43.676,20.671 L33.168,20.671 L38.422,11.480 ZM26.600,10.713 L37.108,10.713 L31.854,19.905 L26.600,10.713 ZM31.854,-0.006 L37.108,9.184 L26.600,9.184 L31.854,-0.006 ZM20.032,20.671 L25.286,11.480 L30.540,20.671 L20.032,20.671 ZM13.465,32.154 L18.718,22.967 L23.971,32.154 L13.465,32.154 ZM6.897,43.641 L12.151,34.451 L17.404,43.641 L6.897,43.641 ZM0.331,55.128 L5.582,45.939 L10.836,55.128 L0.331,55.128 ZM17.404,45.172 L12.151,54.359 L6.897,45.172 L17.404,45.172 ZM23.971,33.686 L18.718,42.874 L13.465,33.686 L23.971,33.686 ZM30.540,22.202 L25.286,31.390 L20.032,22.202 L30.540,22.202 ZM37.108,55.128 L26.600,55.128 L31.854,45.939 L37.108,55.128 ZM43.676,45.172 L38.422,54.359 L33.168,45.172 L43.676,45.172 ZM50.243,55.128 L39.738,55.128 L44.990,45.939 L50.243,55.128 Z" />
-                        </svg><span class="link-logo-txt">Waxom</span>
+                        </svg>
+                        <span class="link-logo-txt">Waxom</span>
                     </a>
                 </div>
 
@@ -46,41 +47,50 @@
                         <li class="nav-li"><a href="#">Pricing</a></li>
                         <li class="nav-li"><a href="#">Shortcodes</a></li>
                         <li class="nav-li"><a href="#">Contact</a></li>
+                        <li class="nav-li"><a href="#"><i class="fas fa-shopping-bag"></i></a></li>
+                        <li class="nav-li"><a href="#"><i class="fas fa-search"></i></a></li>
                     </ul>
+
                 </nav>
             </div>
         </div>
 
     </header>
-    <section class="slider-block">
-        <div class="">
-            <div class="test">
-                <img src="img/bg-intro.jpg" alt="" class="intro-img">
-                <div class="intro">
-                    <div class="intro-wrap">
-                        <div class="svg-arrow">
-                            <svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-chevron-left svg-arrow"
-                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                    d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
-                            </svg>
-                        </div>
-                        <div class="intro-inner ">
-                            <span class="intro-up-title">Уникальный и современный</span>
-                            <h2 class="intro-title">Добро пожаловать в Waxom</h2>
-                            <span class="intro-text">Разнообразный и
-                                богатый опыт повышение уровня гражданского
-                                сознания способствует подготовке и реализации позиции,
-                                занимаемых участниками в отношении поставленных задач.</span>
-                            <a href="#" class="intro-btn">Начать</a>
-                        </div>
-                        <div class="svg-arrow"><svg width="4em" height="4em" viewBox="0 0 16 16"
-                                class="bi bi-chevron-right svg-arrow" fill="currentColor"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                            </svg></div>
+    <section class="slider-block ">
+
+        <div class="intro" id="intro">
+            <img src="img/bg-intro.jpg" alt="" class="intro-img">
+            <div class="container">
+                <div class="intro-inner">
+                    <div class="svg-arrow">
+                        <svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-chevron-left svg-arrow"
+                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z">
+                            </path>
+                        </svg>
                     </div>
+                    <div class="intro-wrap">
+                        <div class="intro-up-title">Уникальный и Современный дизайн</div>
+                        <h2 class="intro-title">PSD шаблонов</h2>
+                        <div class="intro-text">
+                            Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.
+                            Прямо
+                            решила единственное вскоре использовало. Которое вопроса, бросил.
+                        </div>
+                    </div>
+                    <div class="svg-arrow"><svg width="4em" height="4em" viewBox="0 0 16 16"
+                            class="bi bi-chevron-right svg-arrow" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="block-btn">
+                    <a href="#" class="intro-btn text-center">Начать</a>
+
                     <div class="pagination">
                         <a href="#" class="pagination-link"></a>
                         <a href="#" class="pagination-link"></a>
@@ -88,23 +98,20 @@
                         <a href="#" class="pagination-link"></a>
                         <a href="#" class="pagination-link"></a>
                     </div>
-
                 </div>
-
             </div>
 
         </div>
+
     </section>
     <!-- конец верхнего блока -->
     <section class="main-service">
-
         <div class="container">
             <div class="services ">
                 <div class="service-item">
                     <div class="service-inner animated fadeIn">
                         <a href="#" class="service-icon">
                             <div class="fa fa-briefcase">
-
                             </div>
                             <div class="service-content">
                                 <h3 class="service-content-title">Unique & Clean</h3>
@@ -156,7 +163,7 @@
 
     </section>
     <section class="realize">
-        <div class="container wrapp">
+        <div class="container wrap">
             <div class="relize-content">
                 <h2>Waxom is Realization of your Ideas.</h2>
                 <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam
@@ -189,9 +196,8 @@
 
     </section>
 
-    <section class="our-project">
-        <div class="inner-project">
-
+    <section class="our-project container">
+        <div class=" inner-project">
             <div class="project-content">
                 <span>Our Projects</span>
                 <p>Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. I am text block. Click edit
@@ -209,163 +215,225 @@
                         <li class="filter-item">Web Design</li>
                     </ul>
                 </div>
-                <div class="list-portfolio">
-                    <div class="portfolio-items">
-                        <figure class="pic1">
-
-                            <div class="item-inner">
+                <div class="list-portfolio container ">
+                    <div class="block-1 container card-group row">
+                        <div class="portfolio-items col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <figure class="card ">
                                 <img src="img/photo1.jpg" alt="">
-                            </div>
-                            <div class="dark">
-                                <a href="#" class="bottom1">
-                                    <i class="fa fa-link fa-2x" aria-hidden="true"></i>
-                                </a>
-                                <a href="#" target="_blank" class="bottom2">
-                                    <i class="fa fa-search fa-2x" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                            <div class="item-outer">
-                                <figcaption class="portfolio-name">
-                                    <h4>Claritas Etiam Processus</h4>
-                                    <p>Photography, Nature</p>
-
-                                </figcaption>
-                                <div class="like">
-                                    <a href="" class="like-link"><i class="far fa-heart "></i></a>
-                                    <span>178</span>
+                                <div class="dark">
+                                    <a href="#" class="bottom1">
+                                        <i class="fa fa-link fa-2x" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="#" target="_blank" class="bottom2">
+                                        <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+                                    </a>
                                 </div>
-                            </div>
-                        </figure>
-                    </div>
+                                <figcaption class="card-footer">
+                                    <h4 class="card-title">Claritas Etiam Processus</h4>
+                                    <p class="card-text">Photography, Nature</p>
+                                    <div class="like">
+                                        <a href="" class="like-link"><i class="far fa-heart "></i></a>
+                                        <span>178</span>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
 
-                    <div class="portfolio-items">
-                        <figure class="pic2">
-                            <div class="item-inner">
+                        <div class="portfolio-items col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <figure class="card">
                                 <img src="img/photo2.jpg" alt="">
-                            </div>
-                            <div class="dark">
-                                <a href="#" class="bottom1"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
-                                <a href="#" target="_blank" class="bottom2"><i class="fa fa-search fa-2x"
-                                        aria-hidden="true"></i></a>
-                            </div>
-                            <div class="item-outer">
-                                <figcaption class="portfolio-name">
-                                    <h4>Claritas Etiam Processus</h4>
-                                    <p>Photography, Nature</p>
-                                </figcaption>
-                                <div class="like">
-                                    <a href="" class="like-link"><i class="far fa-heart "></i></a>
-                                    <span>178</span>
+                                <div class="dark">
+                                    <a href="#" class="bottom1"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
+                                    <a href="#" target="_blank" class="bottom2">
+                                        <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+                                    </a>
                                 </div>
-                            </div>
-                        </figure>
-                    </div>
-                    <div class="portfolio-items">
-                        <figure class="pic3">
+                                <figcaption class="card-footer">
+                                    <h4 class="card-title">Claritas Etiam Processus</h4>
+                                    <p class="card-text">Photography, Nature</p>
+                                    <div class="like">
+                                        <a href="" class="like-link"><i class="far fa-heart "></i></a>
+                                        <span>178</span>
+                                    </div>
+                                </figcaption>
 
-                            <div class="item-inner">
+                            </figure>
+                        </div>
+                        <div class="portfolio-items col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <figure class="card">
                                 <img src="img/photo3.jpg" alt="">
-                            </div>
-                            <div class="dark">
-                                <a href="#" class="bottom1"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
-                                <a href="#" target="_blank" class="bottom2"><i class="fa fa-search fa-2x"
-                                        aria-hidden="true"></i></a>
-                            </div>
-                            <div class="item-outer">
-                                <figcaption class="portfolio-name">
-                                    <h4>Claritas Etiam Processus</h4>
-                                    <p>Photography, Nature</p>
-                                </figcaption>
-                                <div class="like">
-                                    <a href="" class="like-link"><i class="far fa-heart "></i></a>
-                                    <span>178</span>
+                                <div class="dark">
+                                    <a href="#" class="bottom1">
+                                        <i class="fa fa-link fa-2x" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="#" target="_blank" class="bottom2"><i class="fa fa-search fa-2x"
+                                            aria-hidden="true"></i>
+                                    </a>
                                 </div>
-                            </div>
-                        </figure>
+                                <figcaption class="card-footer">
+                                    <h4 class="card-title">Claritas Etiam Processus</h4>
+                                    <p class="card-text">Photography, Nature</p>
+                                    <div class="like">
+                                        <a href="" class="like-link"><i class="far fa-heart "></i></a>
+                                        <span>178</span>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
                     </div>
-                    <div class="portfolio-items">
-                        <figure class="pic4">
-
-                            <div class="item-inner">
+                    <div class="block-2 card-desk row">
+                        <div class="portfolio-items  col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <figure class="card">
                                 <img src="img/photo4.jpg" alt="">
-                            </div>
-                            <div class="dark">
-                                <a href="#" class="bottom1"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
-                                <a href="#" target="_blank" class="bottom2"><i class="fa fa-search fa-2x"
-                                        aria-hidden="true"></i></a>
-                            </div>
-                            <div class="item-outer">
-                                <figcaption class="portfolio-name">
-                                    <h4>Claritas Etiam Processus</h4>
-                                    <p>Photography, Nature</p>
-                                </figcaption>
-                                <div class="like">
-                                    <a href="" class="like-link"><i class="far fa-heart "></i></a>
-                                    <span>178</span>
+                                <div class="dark">
+                                    <a href="#" class="bottom1"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
+                                    <a href="#" target="_blank" class="bottom2"><i class="fa fa-search fa-2x"
+                                            aria-hidden="true"></i></a>
                                 </div>
-                            </div>
-                        </figure>
-                    </div>
-                    <div class="portfolio-items">
-                        <figure class="pic5">
-
-                            <div class="item-inner">
+                                <figcaption class="card-footer">
+                                    <h4 class="card-title">Claritas Etiam Processus</h4>
+                                    <p class="card-text">Photography, Nature</p>
+                                    <div class="like">
+                                        <a href="" class="like-link"><i class="far fa-heart "></i></a>
+                                        <span>178</span>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="portfolio-items col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <figure class="card">
                                 <img src="img/photo5.jpg" alt="">
-                            </div>
-                            <div class="dark">
-                                <a href="#" class="bottom1"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
-                                <a href="#" target="_blank" class="bottom2"><i class="fa fa-search fa-2x"
-                                        aria-hidden="true"></i></a>
-                            </div>
-                            <div class="item-outer">
-                                <figcaption class="portfolio-name">
-                                    <h4>Claritas Etiam Processus</h4>
-                                    <p>Photography, Nature</p>
-                                </figcaption>
-                                <div class="like">
-                                    <a href="" class="like-link"><i class="far fa-heart "></i></a>
-                                    <span>178</span>
+                                <div class="dark">
+                                    <a href="#" class="bottom1"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
+                                    <a href="#" target="_blank" class="bottom2"><i class="fa fa-search fa-2x"
+                                            aria-hidden="true"></i></a>
                                 </div>
+                                <figcaption class="card-footer">
+                                    <h4 class="card-title">Claritas Etiam Processus</h4>
+                                    <p class="card-text">Photography, Nature</p>
+                                    <div class="like">
+                                        <a href="" class="like-link"><i class="far fa-heart "></i></a>
+                                        <span>178</span>
+                                    </div>
+                                </figcaption>
+                            </figure>
 
-                            </div>
-                        </figure>
-                    </div>
-                    <div class="portfolio-items">
-                        <figure class="pic6">
-
-                            <div class="item-inner">
+                        </div>
+                        <div class="portfolio-items col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <figure class="card">
                                 <img src="img/photo6.jpg" alt="">
-                            </div>
-                            <div class="dark">
-                                <a href="#" class="bottom1"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
-                                <a href="#" target="_blank" class="bottom2"><i class="fa fa-search fa-2x"
-                                        aria-hidden="true"></i></a>
-                            </div>
-                            <div class="item-outer">
-                                <figcaption class="portfolio-name">
-                                    <h4>Claritas Etiam Processus</h4>
-                                    <p>Photography, Nature</p>
-                                </figcaption>
-                                <div class="like">
-                                    <a href="" class="like-link"><i class="far fa-heart "></i></a>
-                                    <span>178</span>
+                                <div class="dark">
+                                    <a href="#" class="bottom1">
+                                        <i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
+                                    <a href="#" target="_blank" class="bottom2">
+                                        <i class="fa fa-search fa-2x" aria-hidden="true"></i></a>
                                 </div>
-                            </div>
-                        </figure>
-                    </div>
+                                <figcaption class="card-footer">
+                                    <h4 class="card-title">Claritas Etiam Processus</h4>
+                                    <p class="card-text">Photography, Nature</p>
+                                    <div class="like">
+                                        <a href="" class="like-link">
+                                            <i class="far fa-heart "></i>
+                                        </a>
+                                        <span>178</span>
+                                    </div>
+                                </figcaption>
 
+
+                            </figure>
+                        </div>
+                    </div>
                 </div>
 
             </div>
+            <div>
+                <a href="#" class="btn-load-more">Load more</a>
+            </div>
+        </div>
+
 
         </div>
     </section>
 
-    <section class="video">
-
+    <section class="block-video">
+        <div class="container">
+            <div class="video">
+                <a class="video__play popup-youtube" href="http://www.youtube.com/watch?v=Rk6_hdRtJOE" target="_blank">
+                    <i class="fa fa-play"></i>
+                </a>
+                <div class="section__inner">
+                    <h2 class="section__title section__title--video">
+                        Наша видеопрезентация
+                    </h2>
+                    <div class="section__text section__text--video">
+                        Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <section class="mobile-service">
+        <div class="container">
+            <div class="devices">
+                <div class="devices__item devices__item--left">
+                    <img src="img/hand.png" alt="" class="devices-img">
+                </div>
 
+                <div class="devices-item ">
+                    <div class="section-inner section-inner-devices">
+                        <h2 class="section-title">
+                            Адаптивность для мобильных устройств
+                        </h2>
+                        <div class="section-text">
+                            <p>
+                                Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.
+                                Что эта до рыбного однажды запятых не. Оксмокс переулка языком она продолжил которое
+                                вопроса агенство, гор что деревни! Это, ты.
+                            </p>
+                        </div>
+                    </div>
+
+                    <ul class="devices-advantages">
+                        <li class="li-items">
+                            Далеко-далеко за словесными горами в стране, гласных и согласных.
+                        </li>
+                        <li class="">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-circle "
+                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                <path fill-rule="evenodd"
+                                    d="M4 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5A.5.5 0 0 0 4 8z" />
+                            </svg>
+                            <p>Далеко-далеко за словесными горами в стране, гласных и
+                                согласных.</p>
+                        </li>
+                        <li class="">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-circle"
+                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                <path fill-rule="evenodd"
+                                    d="M4 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5A.5.5 0 0 0 4 8z" />
+                            </svg>
+                            <p>Далеко-далеко за словесными горами в стране, гласных и
+                                согласных.</p>
+                        </li>
+                        <li class="">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-circle"
+                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                <path fill-rule="evenodd"
+                                    d="M4 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5A.5.5 0 0 0 4 8z" />
+                            </svg>
+                            <p>Далеко-далеко за словесными горами в стране, гласных и
+                                согласных.</p>
+                        </li>
+                    </ul>
+                </div><!-- /.devices__item -->
+            </div><!-- /.devices -->
+        </div><!-- /.container -->
     </section>
     <section class="counter">
 
