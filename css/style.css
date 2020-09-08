@@ -1009,7 +1009,7 @@ justify-content: space-between; */
     margin-bottom: 60px;
 }
 .op-header h1{
-    padding: 70px 0;
+    padding: 70px 0 0;
     text-align: center;
 }
 
@@ -1019,6 +1019,7 @@ justify-content: space-between; */
     line-height: 1.6em;
     font-weight: normal;
     text-align: center;
+    margin-top: 20px;
 }
 
 .op-wraper{
