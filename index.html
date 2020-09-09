@@ -15,11 +15,6 @@
     <link rel="stylesheet" href="css/style.css">
     <title>main page</title>
 </head>
-<script>
-    $('.carousel').carousel({
-        interval: 2000
-    })
-</script>
 
 <body>
     <!-- начало верхнего блока -->
@@ -55,6 +50,17 @@
             </div>
         </div>
 
+        <div class="burger-menu">
+            <div class="burger-menu__body">
+                <div class="burger-menu__logo logo">
+                    <img src="img/logo.png" alt="logo" class="flexible-image">
+                    <strong class="logo__text">Waxom</strong>
+                </div>
+                <div class="burger burger-menu__burger">
+                    <div class="burger__lines"></div>
+                </div>
+            </div>
+        </div>
     </header>
     <section class="slider-block ">
         <img src="img/bg-intro.jpg" alt="" class="intro-img">
@@ -585,16 +591,88 @@
         <div class="container">
             <div class="partner-slider-wrap">
                 <div class="container">
-                    <div class="list-partner">
-                        <div class="item-partner">
+                    <ul class="list-partner">
+                        <li class="item-logo"><img src="img/logo_01.png" alt=""></li>
+                        <li class="item-logo"><img src="img/logo_02.png" alt=""></li>
+                        <li class="item-logo"><img src="img/logo_03.png" alt=""></li>
+                        <li class="item-logo"><img src="img/logo_04.png" alt=""></li>
 
-                        </div>
-                    </div>
+                    </ul>
+
+
+
                 </div>
             </div>
         </div>
     </section>
-    <section class="bottom-post">
+    <section class="widgets">
+        <div class="container widgets-body">
+            <div class="widget-column">
+                <div class="logo mb-3">
+                    <a href="index.html" class="link-logo">
+                        <svg class="link-logo-svg" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="56">
+                            <path
+                                d="M52.873,55.128 L58.125,45.939 L63.377,55.128 L52.873,55.128 ZM46.303,45.172 L56.811,45.172 L51.557,54.359 L46.303,45.172 ZM51.557,34.451 L56.811,43.641 L46.303,43.641 L51.557,34.451 ZM39.738,33.686 L50.243,33.686 L44.990,42.874 L39.738,33.686 ZM44.990,22.967 L50.243,32.154 L39.738,32.154 L44.990,22.967 ZM33.168,22.202 L43.676,22.202 L38.422,31.390 L33.168,22.202 ZM38.422,11.480 L43.676,20.671 L33.168,20.671 L38.422,11.480 ZM26.600,10.713 L37.108,10.713 L31.854,19.905 L26.600,10.713 ZM31.854,-0.006 L37.108,9.184 L26.600,9.184 L31.854,-0.006 ZM20.032,20.671 L25.286,11.480 L30.540,20.671 L20.032,20.671 ZM13.465,32.154 L18.718,22.967 L23.971,32.154 L13.465,32.154 ZM6.897,43.641 L12.151,34.451 L17.404,43.641 L6.897,43.641 ZM0.331,55.128 L5.582,45.939 L10.836,55.128 L0.331,55.128 ZM17.404,45.172 L12.151,54.359 L6.897,45.172 L17.404,45.172 ZM23.971,33.686 L18.718,42.874 L13.465,33.686 L23.971,33.686 ZM30.540,22.202 L25.286,31.390 L20.032,22.202 L30.540,22.202 ZM37.108,55.128 L26.600,55.128 L31.854,45.939 L37.108,55.128 ZM43.676,45.172 L38.422,54.359 L33.168,45.172 L43.676,45.172 ZM50.243,55.128 L39.738,55.128 L44.990,45.939 L50.243,55.128 Z" />
+                        </svg>
+                        <span class="link-logo-txt">Waxom</span>
+                    </a>
+                </div>
+                <div class="widget-text mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit magni, ad
+                    repellendus dolore possimus nobis nisi aliquam quaerat. Praesentium doloribus odit beatae eius optio
+                    necessitatibus ab vel repudiandae, aspernatur enim aut perspiciatis commodi modi, tempore ad
+                    ratione. Corrupti, sed ratione?</div>
+                <a href="#" class="widget-more">Read More</a>
+            </div>
+            <div class="widget-column">
+                <h2 class="widget-title">Recent Posts</h2>
+                <a href="" class="widget-block link">
+                    <div class="widget-date">09 october 2020</div>
+                    <div class="widget-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                </a>
+                <a href="index.html" class="widget-block link">
+                    <div class="widget-date">September 08, 2015</div>
+                    <div class="widget-text">Diam nonummy nibh euismod tincidunt ut laoreet dolore magna</div>
+                </a>
+                <a href="index.html" class="widget-block link">
+                    <div class="widget-date">September 08, 2015</div>
+                    <div class="widget-text">Claritas est etiam processus dynamicus, qui sequitur mutationem per
+                        seacula quarta decima</div>
+                </a>
+            </div>
+            <div class="widget-column">
+                <h2 class="widget-title">Our Twitter</h2>
+
+                <div class="widget-block">
+                    <div class="widget-text"><a href="" class="widget-hesh link">@waxom</a> Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit.
+                    </div>
+                    <div class="widget-duration">3 mins ago</div>
+                </div>
+                <div class="widget-block">
+                    <div class="widget-text">Mirum est <a href="" class="widget-hesh link">#envato</a> notare quam
+                        littera gothica, quam nunc putamus parum anteposuerit litterarum
+                    </div>
+                    <div class="widget-duration">5 hours ago</div>
+                </div>
+                <div class="widget-block">
+                    <div class="widget-text">Soluta nobis option <a href="" class="link widget-link">bit.ly/1Hniso7</a>
+
+                    </div>
+                    <div class="widget-duration">5 hours ago</div>
+                </div>
+            </div>
+            <div class="widget-column">
+                <h2 class="widget-title">Dribbble Widget</h2>
+                <div class="widget-images">
+                    <a href="" class="widget-image"><img src="img/drib.png" alt=""></a>
+                    <a href="" class="widget-image"><img src="img/drib2.png" alt=""></a>
+                    <a href="" class="widget-image"><img src="img/drib3.png" alt=""></a>
+                    <a href="" class="widget-image"><img src="img/drib4.png" alt=""></a>
+                </div>
+            </div>
+
+
 
     </section>
 
