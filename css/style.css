@@ -226,7 +226,7 @@
 
     border-radius: 3px;
 
-    transition: background .1s linear;
+    transition: background .4s ease-out;
 }
 
 .intro-btn:hover {
@@ -234,7 +234,7 @@
     /* color: #998675; */
     color: orange;
     text-decoration: none;
-    transition: background-color ease-out(1.5s);
+    transition: all .7s linear;
 }
 
 .intro-btn:active {
