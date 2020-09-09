@@ -377,7 +377,7 @@
 }
 
 .animated {
-    animation-duration: 1s;
+    animation-duration: 1.7s;
     animation-fill-mode: both;
 }
 
@@ -386,6 +386,12 @@
         opacity: 0;
     }
 
+    50% {
+        opacity: .5;
+    }
+    75% {
+        opacity: .75;
+    }
     100% {
         opacity: 1;
     }
