@@ -529,19 +529,44 @@
 }
 
 .our-project {
-    padding-top: 80px;
-
+  
+ }
+.project-content{
+    width: 100%;
+    max-width: 750px;
     text-align: center;
+    margin: 50px 0 0 0;
+}
+.project-title {
+    margin: 0 0 20px;
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: bold;
+    color: #555555;
+}
+
+.project-subtitle{
+    font-size: 16px;
+    line-height: 1.8em;
+    color: #8c8c8c;
 }
 
 .inner-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 80px 0;
+    overflow: hidden;
+    position: relative;
+    /* display: flex;
+    flex-direction: column;
     height: auto;
     max-width: 1210px;
     padding: 0 20px;
     position: relative;
     margin: 0 auto;
     padding-bottom: 0;
-    overflow: hidden;
+    overflow: hidden; */
     /* width: 1180px; */
 }
 
@@ -554,6 +579,7 @@
 
 .block-filter {
     align-self: center;
+    margin: 40px 0 0 0;
 }
 
 .filter-project {
@@ -676,13 +702,15 @@
 }
 
 .dark i {
-    margin-top: 100px;
+    margin-top: 110px;
     color: white;
 }
 
 i.fa-link {
+    margin-left: 110px;
     margin-right: 20px;
 }
+
 
 .dark i:hover {
     color: rgb(199, 178, 153);
