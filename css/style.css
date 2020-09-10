@@ -115,6 +115,7 @@
     display: inline-block;
 }
 
+/* slide block */
 .slider-block {
     /* position: relative; */
 }
@@ -162,7 +163,7 @@
 
 .intro-inner {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     text-align: center;
     line-height: 1;
@@ -222,6 +223,7 @@
     border-radius: 3px;
 
     transition: background .4s ease-out;
+    animation: to-up 0.6s 1;
 }
 
 .intro-btn:hover {
@@ -285,6 +287,7 @@
     fill: orange;
 }
 
+/* service */
 .main-service {
     /* padding-top: 80px;
     position: relative;
@@ -375,17 +378,6 @@
     transition: color .3s;
     /* color: #363636; */
 }
-
-.fadeIn {
-    animation-name: fadeIn;
-}
-
-.animated {
-    animation-duration: 1.7s;
-    animation-fill-mode: both;
-}
-
-
 
 .relize {
     width: 100%;
@@ -1593,10 +1585,45 @@ justify-content: space-between; */
 /* End Mobile-menu */
 
 
+/* */
+.slide-up-animate {
+    animation: to-up 1.6s both;
+    
+  }
+
+.slide-down-animate{
+    animation: to-down 1.6s both;
+}  
+
+
+.slide-left-animate{
+    animation: to-left 1.6s both;
+} 
+
+.slide-right-animate{
+    animation: to-right 1.6s both;
+} 
+
+.slide-nav-up{
+    animation: clip-nav-up 1.6s both;
+}
+
+.slide-nav-down{
+    animation: clip-nav-dow 1.6s both;
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 1.7s;
+    animation-fill-mode: both;
+}
+
+
+
 /* animation */
 @keyframes to-up {
     from {
-      transform: translate(0, 200%);
+      transform: translate(0, 300%);
     }
     to {
       transform: translate(0, 0);
@@ -1626,3 +1653,36 @@ justify-content: space-between; */
         opacity: 1;
     }
 }
+
+@keyframes clip-nav-down {
+    from {
+      transform: translate(0, -100%);
+    }
+    to {
+      transform: translate(0, 0);
+    }
+  }
+  @keyframes clip-nav-up {
+    from {
+      transform: translate(0, 0);
+    }
+    to {
+      transform: translate(0, -100%);
+    }
+  }
+  @keyframes to-left {
+    from {
+      transform: translate(100%, 0);
+    }
+    to {
+      transform: translate(0, 0);
+    }
+  }
+  @keyframes to-right {
+    from {
+      transform: translate(0, 0);
+    }
+    to {
+      transform: translate(100%, 0);
+    }
+  }
