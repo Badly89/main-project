@@ -1,30 +1,34 @@
 @media only screen and (max-width: 1024px) {
 
-    .container{
-     
-       max-width: 970px;
-    }
-    section>*{
+    .container {
+
         max-width: 970px;
     }
+
+    section>* {
+        max-width: 970px;
+    }
+
     .svg-arrow {
         width: 2em;
         height: 2em;
     }
-    
-    .intro-up-title{
+
+    .intro-up-title {
         font-size: 20px;
         font-weight: normal;
 
     }
-    .intro-text{
+
+    .intro-text {
         font-family: Raleway, sans-serif;
-        
+
         font-size: 12px;
         color: #fff;
-       
+
         margin-bottom: 5px;
     }
+
     .intro-title {
         font-family: Raleway, sans-serif;
         font-size: 30px;
@@ -34,10 +38,10 @@
     }
 
     .block-btn {
-        padding-top: 50px;
+        padding-top: 10px;
     }
 
-    .intro-btn{
+    .intro-btn {
         font-size: 12px;
         padding: 10px 20px;
     }
@@ -45,18 +49,18 @@
     .pagination {
         margin-top: 15px;
         align-self: center;
-       
+
     }
 
-    .main-service{
+    .main-service {
         margin-bottom: 0;
     }
 
-    .op-header h1{
+    .op-header h1 {
         padding: 10px 0 0;
     }
 
-    .op-header p{
+    .op-header p {
         color: #8c8c8c;
         font-size: 14px;
         line-height: 1.6em;
@@ -64,91 +68,104 @@
         text-align: center;
         margin-top: 20px;
     }
-   
-    .op-card-item{
+
+    .op-card-item {
         flex-flow: row wrap;
     }
-    .op-items:nth-child(2n)::after{
-     content: '';
-     width: 100%;
+
+    .op-items:nth-child(2n)::after {
+        content: '';
+        width: 100%;
     }
+
     .list-partner {
         flex-flow: row wrap;
     }
 
-    .items-logo img{
+    .items-logo img {
         margin: 150px 150px;
     }
-    .item-logo:nth-child(2n)::after{
+
+    .item-logo:nth-child(2n)::after {
         content: '';
         width: 100%;
     }
 
 }
-@media screen and (max-width: 992px){
-    .header-inner{
+
+@media screen and (max-width: 992px) {
+    .header-inner {
         max-width: 900px;
         display: inline-block;
     }
 
-    .link-logo{
-       
+    .link-logo {
+
         padding-bottom: 5px;
     }
-   
-    .link-logo-txt{
+
+    .link-logo-txt {
         font-size: 28px;
     }
 
-    section{
+    section {
         max-width: 720px;
     }
-    .intro-img{
+
+    .intro-img {
         max-width: 720px;
     }
-    .intro-inner{
+
+    .intro-inner {
         max-width: 720px;
         padding-top: 65px;
     }
-    .widgets-body{
+
+    .widgets-body {
         flex-direction: column;
         align-items: center;
     }
 
-    .widget-column{
+    .widget-column {
         width: 80%;
     }
-    .op-card-item{
-    justify-content: center;
+
+    .op-card-item {
+        justify-content: center;
     }
-    .count{
+
+    .count {
         font-size: 40px;
         color: #ffffff;
-       
+
     }
-    .device-img{
+
+    .device-img {
         max-width: 100%;
         height: auto;
     }
-    .item-icon{
+
+    .item-icon {
         font-size: 14px;
     }
-   
+
     /* .header-inner{
         display: none;
     } */
-    .services{
+    .services {
         max-width: 710px;
         justify-content: center;
-       
+
     }
-    .service-item:nth-child(2n)::after{
+
+    .service-item:nth-child(2n)::after {
         content: '';
-       
+
     }
-    .service-item{
+
+    .service-item {
         margin: 0;
-              
+
     }
 
     .service-inner .service-icon:hover {
@@ -158,17 +175,19 @@
         /* fill: orange; */
     }
 
-    .relize{
+    .relize {
         max-width: 710px;
     }
-    .relize-content h2{
+
+    .relize-content h2 {
         padding-top: 20px;
     }
 
     .relize-content p {
         margin-bottom: 0;
     }
-    .relize-image{
+
+    .relize-image {
         max-width: 710px;
         background-size: 75%;
         min-height: 365px;
@@ -177,34 +196,39 @@
 }
 
 
-@media screen and (max-width: 767px){
-    
-   .container{
-    max-width: 360px;
-   }
-   section{
-       max-width: 320px;
-       height: auto;
-   }
-   .intro{
-      max-width: 320px;
-   
-   }
-   .intro-img{
-       max-width: 320px;
-       
-   }
-   .burger-menu {
-        display: block;
-        
-        
+@media screen and (max-width: 767px) {
+
+    .container {
+        max-width: 360px;
     }
-    .header-inner{
+
+    section {
+        max-width: 320px;
+        height: auto;
+    }
+
+    .intro {
+        max-width: 320px;
+
+    }
+
+    .intro-img {
+        max-width: 320px;
+
+    }
+
+    .burger-menu {
+        display: block;
+
+
+    }
+
+    .header-inner {
         display: none;
     }
- 
 
-    .intro-wrap { 
+
+    .intro-wrap {
         padding-top: 0px;
 
     }
@@ -212,7 +236,7 @@
     .intro-up-title {
         font-size: 20px;
         font-weight: normal;
-        padding-bottom: 15px ;
+        padding-bottom: 15px;
     }
 
     .intro-title {
@@ -220,86 +244,99 @@
         font-size: 24px;
         color: #fff;
         text-align: center;
-        
+
     }
+
     .intro-text {
         font-family: Raleway, sans-serif;
         font-size: 8px;
         color: #fff;
-      
+
     }
-    .svg-arrow{
+
+    .svg-arrow {
         width: 2em;
         height: 2em;
     }
-    .arrow{
+
+    .arrow {
         margin: 0 15px;
     }
- 
+
     .intro-btn {
         font-size: 12px;
         padding: 5px 10px;
     }
 
-    .services{
+    .services {
         max-width: 320px;
         flex-wrap: wrap;
         padding-top: 15px;
     }
+
     .service-icon {
         font-size: 36px;
         transition: color .3s;
     }
+
     .service-content-title {
         font-size: 16px;
         margin: 15px auto 7px;
         padding: 0;
-               
-    }
-    .service-discription {
-        font-size: 12px;
-        margin-bottom: 15px;       
+
     }
 
-    .filter-project{
+    .service-discription {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+
+    .filter-project {
         flex-direction: column;
     }
-    .list-portfolio{
+
+    .list-portfolio {
         justify-content: normal;
         margin: 0;
     }
-    .portfolio-items{
+
+    .portfolio-items {
         max-width: 220px;
     }
-    .card-portfolio{
+
+    .card-portfolio {
         width: 240px;
         height: 100%;
     }
 
-    .our-project{
-    
+    .our-project {
+
         padding: 10px;
     }
+
     .wrap {
         padding-top: 10px;
-    }  
+    }
 
     .relize-content h2 {
-      font-size: 20px;
+        font-size: 20px;
     }
 
     .relize-content p {
-    font-size: 12px;
+        font-size: 12px;
     }
+
     .relize-image {
         max-width: 710px;
         background-size: 75%;
         min-height: 164px;
     }
+
     .reklama-content {
         padding: 20px 0px 10px;
         flex-direction: column;
     }
+
     .reklama-title {
         font-size: 2em;
         line-height: 1.2em;
@@ -307,68 +344,83 @@
         margin-bottom: -2px;
         color: white;
     }
+
     .reklama-subtitle {
         margin: 0;
         font-size: 16px;
-              
+
     }
+
     .btn-purchase {
-        align-self:center ;
+        align-self: center;
         width: 120px;
         min-height: 50px;
-        
-   }
-   .btn-purchase-txt {
+
+    }
+
+    .btn-purchase-txt {
         margin: auto;
         font-size: 10px;
     }
-    .count-grid{
-      flex-direction: column;
-    }
 
-    .mobile-service{
-        max-width: 320px;
-
-    }
-    .devices{
+    .count-grid {
         flex-direction: column;
     }
-    .devices-img{
+
+    .mobile-service {
+        max-width: 320px;
+
+    }
+
+    .devices {
+        flex-direction: column;
+    }
+
+    .devices-img {
         display: none;
     }
-    .presentation-description{
-        top:0;
+
+    .presentation-description {
+        top: 0;
     }
-    .presentation-play{
+
+    .presentation-play {
         display: none;
     }
-    .presentation-video{
+
+    .presentation-video {
         max-width: 320px;
     }
-    .title{
+
+    .title {
         font-family: Raleway;
         font-size: 25px;
         font-weight: bold;
-      
+
     }
+
     .subtitle {
         padding: 10px;
         color: #fff;
         font-size: 14px;
         line-height: 1em;
-      
+
     }
-    .presentation__duration{
+
+    .presentation__duration {
         display: none;
     }
-    .list-partner{
+
+    .list-partner {
         justify-content: center;
 
     }
-    .link-logo{
+
+    .link-logo {
         display: block;
     }
-    .pagination{
+
+    .pagination {
         margin: 10px;
     }
 
@@ -376,7 +428,7 @@
         max-width: 250px;
     }
 
-    .op-card-item{
+    .op-card-item {
         justify-content: inherit;
     }
 
