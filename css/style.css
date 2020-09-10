@@ -129,6 +129,7 @@
     /* min-height: 825px; */
     z-index: 5;
     background-color: rgba(0, 0, 0, .3);
+   
 }
 
 .intro-img {
@@ -138,7 +139,7 @@
     /* opacity: .5; */
     z-index: -5;
     background-size: cover;
-    background-position: 50% 50%;
+    /* background-position: 50% 50%; */
     /* background-color: rgba(0, 0, 0, 3); */
 }
 
@@ -165,7 +166,7 @@
     width: 100%;
     text-align: center;
     line-height: 1;
-    padding-top: 50px;
+    padding-top: 150px;
 }
 
 .intro-up-title {
@@ -195,7 +196,7 @@
 }
 
 .block-btn {
-    padding-top: 30px;
+    /* padding-top: 30px; */
     text-align: center;
     display: flex;
     flex-direction: column;
