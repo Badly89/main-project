@@ -9,10 +9,13 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-    <link href="http://fonts.googleapis.com/css?family=Raleway:300,900,100,600,400,500,800" rel="stylesheet"
-        property="stylesheet" type="text/css" media="all">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <title>main page</title>
 </head>
 
@@ -31,7 +34,6 @@
                         <span class="link-logo-txt">Waxom</span>
                     </a>
                 </div>
-
                 <nav class="nav" id="nav">
                     <ul class="nav-ul">
                         <li class="nav-li"><a href="#">Home</a></li>
@@ -50,17 +52,7 @@
             </div>
         </div>
 
-        <div class="burger-menu">
-            <div class="burger-menu__body">
-                <div class="burger-menu__logo logo">
-                    <img src="img/logo.png" alt="logo" class="flexible-image">
-                    <strong class="logo__text">Waxom</strong>
-                </div>
-                <div class="burger burger-menu__burger">
-                    <div class="burger__lines"></div>
-                </div>
-            </div>
-        </div>
+
     </header>
     <section class="slider-block ">
         <img src="img/bg-intro.jpg" alt="" class="intro-img">
@@ -68,9 +60,9 @@
 
             <div class="container">
                 <div class="intro-inner">
-                    <div class="svg-arrow">
-                        <svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-chevron-left svg-arrow"
-                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <div class="arrow">
+                        <svg viewBox="0 0 16 16" class="bi bi-chevron-left svg-arrow" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd"
                                 d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z">
                             </path>
@@ -85,9 +77,8 @@
                             решила единственное вскоре использовало. Которое вопроса, бросил.
                         </div>
                     </div>
-                    <div class="svg-arrow"><svg width="4em" height="4em" viewBox="0 0 16 16"
-                            class="bi bi-chevron-right svg-arrow" fill="currentColor"
-                            xmlns="http://www.w3.org/2000/svg">
+                    <div class="arrow"><svg viewBox="0 0 16 16" class="bi bi-chevron-right svg-arrow"
+                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd"
                                 d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
                             </path>
@@ -199,9 +190,10 @@
 
     </section>
 
-    <section class="our-project container">
-        <div class=" inner-project">
-            <div class="project-content">
+    <section class="our-project ">
+        <div class=" inner-project container">
+
+            <div class="project-content ">
                 <span>Our Projects</span>
                 <p>Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. I am text block. Click edit
                     button to change this text.
@@ -354,27 +346,30 @@
             <div>
                 <a href="#" class="btn-load-more">Load more</a>
             </div>
+
         </div>
 
 
         </div>
     </section>
 
-    <section class="block-video">
-        <div class="container">
-            <div class="video">
-                <a class="video__play popup-youtube" href="http://www.youtube.com/watch?v=Rk6_hdRtJOE" target="_blank">
-                    <i class="fa fa-play"></i>
-                </a>
-                <div class="section__inner">
-                    <h2 class="section__title section__title--video">
-                        Наша видеопрезентация
-                    </h2>
-                    <div class="section__text section__text--video">
-                        Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.
-                    </div>
+    <section class="presentation">
+        <div class="presentation-video-wrap">
+            <div class="presentation-description">
+                <div class="presentation-play">
+                    <svg class="svg" width="70px" height="70px">
+                        <path fill="#fff"
+                            d="M31.253,18.653 L48.967,33.415 C49.437,33.807 49.709,34.386 49.709,34.997 C49.709,35.609 49.437,36.188 48.967,36.580 L31.253,51.343 C30.876,51.657 30.407,51.820 29.934,51.820 C29.638,51.820 29.339,51.755 29.060,51.626 C28.337,51.287 27.874,50.559 27.874,49.760 L27.874,20.235 C27.874,19.436 28.337,18.708 29.060,18.370 C29.783,18.030 30.640,18.141 31.253,18.653 ZM31.994,45.362 L44.431,34.997 L31.994,24.633 L31.994,45.362 ZM59.759,59.759 C53.033,66.484 44.026,69.998 34.937,69.998 C29.072,69.999 23.173,68.536 17.831,65.528 C16.839,64.970 16.488,63.713 17.046,62.722 C17.604,61.731 18.860,61.379 19.852,61.938 C31.870,68.703 47.082,66.611 56.845,56.845 C68.892,44.798 68.892,25.197 56.845,13.150 C44.798,1.101 25.196,1.102 13.150,13.150 C1.104,25.197 1.104,44.798 13.150,56.845 C13.955,57.650 13.955,58.954 13.150,59.759 C12.347,60.563 11.042,60.563 10.237,59.759 C-3.416,46.105 -3.416,23.890 10.237,10.236 C23.891,-3.416 46.104,-3.417 59.759,10.236 C73.412,23.890 73.412,46.105 59.759,59.759 Z" />
+                    </svg>
                 </div>
+                <h2 class="presentation-title title">Waxom Video Presentation</h2>
+                <div class="presentation-subtitle subtitle">Investigationes demonstraverunt lectores legere me lius
+                    quod ii legunt saepius, qui sequitur mutationem consuetudium.</div>
+                <div class="presentation__duration">04:19</div>
             </div>
+            <video class="presentation-video" loop="" muted="" autoplay="" poster="img/video_bg.jpg">
+                <source src="img/video.mp4" type="video/mp4">
+            </video>
         </div>
     </section>
     <section class="mobile-service">
@@ -386,7 +381,7 @@
 
                 <div class="devices-item ">
                     <div class="section-inner section-inner-devices">
-                        <h2 class="">
+                        <h2 class="section-title">
                             Адаптивность для мобильных устройств
                         </h2>
                         <div class="section-text">
@@ -425,51 +420,49 @@
         </div><!-- /.container -->
     </section>
     <section class="counter">
-        <div class="count-wrap">
-            <div class="container">
-                <div class="count-grid">
-                    <div class="item-count">
-                        <div class="icon">
-                            <i class="fas fa-users"></i>
-                        </div>
-                        <div class="count">3587
-                        </div>
-                        <p>Satisfied Clients</p>
+        <div class=" count-wrap">
+            <div class="count-grid container">
+                <div class="item-count">
+                    <div class="icon">
+                        <i class="fas fa-users"></i>
                     </div>
-                    <div class="item-count">
-                        <div class="icon">
-                            <i class="fas fa-coffee"></i>
-                        </div>
-                        <div class="count">206
-                        </div>
-                        <p>Cups of coffee
+                    <div class="count">3587
+                    </div>
+                    <p>Satisfied Clients</p>
+                </div>
+                <div class="item-count">
+                    <div class="icon">
+                        <i class="fas fa-coffee"></i>
+                    </div>
+                    <div class="count">206
+                    </div>
+                    <p>Cups of coffee
 
-                        </p>
+                    </p>
+                </div>
+                <div class="item-count">
+                    <div class="icon">
+                        <i class="far fa-comments"></i>
                     </div>
-                    <div class="item-count">
-                        <div class="icon">
-                            <i class="far fa-comments"></i>
-                        </div>
-                        <div class="count">2500
-                        </div>
-                        <p>Blog posts</p>
+                    <div class="count">2500
                     </div>
-                    <div class="item-count">
-                        <div class="icon">
-                            <i class="fas fa-thumbs-up"></i>
-                        </div>
-                        <div class="count">873
-                        </div>
-                        <p>Likes</p>
+                    <p>Blog posts</p>
+                </div>
+                <div class="item-count">
+                    <div class="icon">
+                        <i class="fas fa-thumbs-up"></i>
                     </div>
-                    <div class="item-count">
-                        <div class="icon">
-                            <i class="fas fa-utensils"></i>
-                        </div>
-                        <div class="count">900
-                        </div>
-                        <p>We launched</p>
+                    <div class="count">873
                     </div>
+                    <p>Likes</p>
+                </div>
+                <div class="item-count">
+                    <div class="icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <div class="count">900
+                    </div>
+                    <p>We launched</p>
                 </div>
             </div>
         </div>
@@ -481,13 +474,14 @@
                     <div class="op-header">
                         <h1>Resent Posts</h1>
                         <p>
-                            Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est
+                            Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas
+                            est
                             <br>
                             etiam processus dynamicus, qui sequitur mutationem consuetudium.
                         </p>
                     </div>
                     <div class="op-carousel">
-                        <div class="op-card-item ">
+                        <div class="op-card-item  ">
                             <div class="op-items ">
                                 <div class="main-date">
                                     <div class="date">28</div>
@@ -502,13 +496,15 @@
                                     </div>
                                     <figcaption class="card-footer op-footer">
                                         <a href="">
-                                            <h3 class="card-title op-title">Claritas est etiam processus dynamicus</h3>
+                                            <h3 class="card-title op-title">Claritas est etiam processus dynamicus
+                                            </h3>
                                         </a>
                                         <div class="">
                                             <p class="card-text op-text">Lorem ipsum dolor sit amet, consectetuer
                                                 adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
                                                 dolore magna
-                                                aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+                                                aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
+                                                exerci
                                                 tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
                                                 consequat. Duis autem vel eum</p>
                                             <p>
@@ -535,7 +531,8 @@
                                     </div>
                                     <figcaption class="card-footer op-footer">
                                         <a href="">
-                                            <h3 class="card-title op-title">Mirum est notare quam littera gothica, quam
+                                            <h3 class="card-title op-title">Mirum est notare quam littera gothica,
+                                                quam
                                                 nunc
                                             </h3>
                                         </a>
@@ -564,11 +561,14 @@
                                     </div>
                                     <figcaption class="card-footer op-footer">
                                         <a href="">
-                                            <h3 class="card-title op-title">Ut wisi enim ad minim veniam, quis nostrud
+                                            <h3 class="card-title op-title">Ut wisi enim ad minim veniam, quis
+                                                nostrud
                                             </h3>
                                         </a>
-                                        <p class="card-text op-text">Lorem ipsum, dolor sit amet consectetur adipisicing
-                                            elit. Tempora, iusto consectetur ab amet autem dolorem quas quos incidunt
+                                        <p class="card-text op-text">Lorem ipsum, dolor sit amet consectetur
+                                            adipisicing
+                                            elit. Tempora, iusto consectetur ab amet autem dolorem quas quos
+                                            incidunt
                                             tempore rem!</p>
                                         <p>
                                             <a href="" class="read-more">Read More </a>
@@ -618,8 +618,10 @@
                         <span class="link-logo-txt">Waxom</span>
                     </a>
                 </div>
-                <div class="widget-text mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit magni, ad
-                    repellendus dolore possimus nobis nisi aliquam quaerat. Praesentium doloribus odit beatae eius optio
+                <div class="widget-text mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit magni,
+                    ad
+                    repellendus dolore possimus nobis nisi aliquam quaerat. Praesentium doloribus odit beatae eius
+                    optio
                     necessitatibus ab vel repudiandae, aspernatur enim aut perspiciatis commodi modi, tempore ad
                     ratione. Corrupti, sed ratione?</div>
                 <a href="#" class="widget-more">Read More</a>
@@ -644,7 +646,8 @@
                 <h2 class="widget-title">Our Twitter</h2>
 
                 <div class="widget-block">
-                    <div class="widget-text"><a href="" class="widget-hesh link">@waxom</a> Lorem ipsum dolor sit amet
+                    <div class="widget-text"><a href="" class="widget-hesh link">@waxom</a> Lorem ipsum dolor sit
+                        amet
                         consectetur adipisicing elit.
                     </div>
                     <div class="widget-duration">3 mins ago</div>
@@ -676,6 +679,37 @@
 
     </section>
 
+    <div class="burger-menu">
+        <div class="burger-menu-body">
+            <div class="burger-menu-logo logo">
+                <img src="img/logo.png" alt="logo" class="flexible-image">
+            </div>
+            <div class="burger burger-menu-burger">
+                <div class="burger-lines"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu">
+        <nav class="menu-content">
+            <div class="burger-close menu-burger-close">
+                <div class="burger-close-lines"></div>
+            </div>
+            <ul class="menu-ul">
+                <li class="li menu-li"><a href="index.html" class="link header-link">Home</a></li>
+                <li class="li menu-li"><a href="#about" class="link header-link">About Us</a></li>
+                <li class="li menu-li"><a href="#portfolio" class="link header-link">Portfolio</a></li>
+                <li class="li menu-li"><a href="#1" class="link header-link">Features</a></li>
+                <li class="li menu-li"><a href="#1" class="link header-link">Blog</a></li>
+                <li class="li menu-li"><a href="#1" class="link header-link">Pricing</a></li>
+                <li class="li menu-li"><a href="#1" class="link header-link">Shortcodes</a></li>
+                <li class="li menu-li"><a href="#1" class="link header-link">Contacts</a></li>
+            </ul>
+        </nav>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
