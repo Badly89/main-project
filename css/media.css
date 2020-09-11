@@ -95,7 +95,7 @@
 
 @media screen and (max-width: 992px) {
     .header-inner {
-        max-width: 900px;
+        /* max-width: 900px; */
         display: inline-block;
     }
 
@@ -111,13 +111,8 @@
     section {
         max-width: 720px;
     }
-
-    .intro-img {
-        max-width: 720px;
-    }
-
     .intro-inner {
-        max-width: 720px;
+        /* max-width: 720px; */
         padding-top: 65px;
     }
 
@@ -196,31 +191,32 @@
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 
     .container {
         max-width: 360px;
     }
 
     section {
-        max-width: 320px;
+        /* max-width: 320px; */
         height: auto;
     }
 
     .intro {
-        max-width: 320px;
+        height: auto;
+        /* max-width: 320px; */
 
     }
 
     .intro-img {
-        max-width: 320px;
+        height: 100vh;
+        /* max-width: 320px; */
 
     }
 
-    .burger-menu {
+    .navbar{
         display: block;
-
-
+        width: 100%;
     }
 
     .header-inner {
@@ -295,6 +291,12 @@
         flex-direction: column;
     }
 
+    .project-view{
+        width: 100%;
+        justify-content: stretch;
+        
+    }
+
     .list-portfolio {
         justify-content: normal;
         margin: 0;
@@ -338,7 +340,7 @@
     }
 
     .reklama-title {
-        font-size: 2em;
+        font-size: 1.3em;
         line-height: 1.2em;
         margin-top: -6px;
         margin-bottom: -2px;

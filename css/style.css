@@ -24,6 +24,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 5;
 }
 
 .header-card {
@@ -32,8 +33,6 @@
     color: #fff;
     font-size: 20px;
 }
-
-
 
 /* logo start */
 .link-logo {
@@ -119,11 +118,13 @@
 .slider-block {
     position: relative;
     width: 100%;
+    height: 100vh;
+   
 }
 
 .intro {
-    height: 100vh;
     z-index: 5;
+   
 }
 
 .intro-img {
@@ -131,7 +132,7 @@
     width: 100%;
     height: 100%;
     /* opacity: .5; */
-    z-index: -5;
+    /* z-index: -5; */
     background-size: cover;
     background-color: rgba(0, 0, 0, .3);
     /* background-position: 50% 50%; */
@@ -145,7 +146,7 @@
 }
 
 .intro-wrap {
-    width: 100%;
+    /* width: 100%; */
     max-width: 595px;
     padding-top: 70px;
     display: flex;
@@ -207,17 +208,14 @@
     text-decoration: none;
     color: #fff;
     background-color: #998675;
-    padding: 20px 35px;
+    padding: 18px 38px;
 
     font-family: Raleway, sans-serif;
-    font-size: 18px;
-    font-weight: 800;
+    font-size: 14px;
+    font-weight: 700;
     text-transform: uppercase;
-
     box-shadow: 0 0 3px #998675;
-
     border-radius: 3px;
-
     transition: background .4s ease-out;
     animation: to-up 0.6s 1;
 }
@@ -569,12 +567,13 @@
 }
 
 .block-filter {
-    align-self: center;
+    /* align-self: center; */
     margin: 40px 0 0 0;
 }
 
 .filter-project {
     display: flex;
+    
 
 }
 
@@ -583,7 +582,7 @@
     cursor: pointer;
     transition: all .3s;
     position: relative;
-
+list-style: none;
     padding: 10px 20px;
     margin: 0 5px;
     border: 1px solid #ebebeb;
@@ -1472,151 +1471,8 @@ justify-content: space-between; */
 }
 
 /* Mobile-menu */
-.burger-menu {
-    color: #fff;
+.navbar{
     display: none;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    background: #111111;
-    padding: 12px;
-    z-index: 10000;
-}
-
-.burger-menu-body {
-    height: 40px;
-    display: flex;
-    justify-content: space-between;
-    -ms-align-items: center;
-    align-items: center;
-    padding: 0 15px;
-}
-
-.burger {
-    position: relative;
-    width: 24px;
-    height: 24px;
-    display: flex;
-    -ms-align-items: center;
-    align-items: center;
-}
-
-.burger-lines {
-    width: 100%;
-    height: 2px;
-    background: #fff;
-}
-
-.burger-lines::before {
-    content: '';
-    background: #fff;
-    width: 100%;
-    height: 2px;
-    position: absolute;
-    top: 5px;
-}
-
-.burger-lines::after {
-    content: '';
-    background: #fff;
-    width: 100%;
-    height: 2px;
-    position: absolute;
-    bottom: 5px;
-}
-
-.burger-lines {
-    width: 100%;
-    height: 2px;
-    background: #fff;
-}
-
-.burger-menu-logo img {
-    height: 40px;
-}
-
-.burger-menu .logo-text {
-    font-size: 25px;
-}
-
-.burger-close {
-    position: relative;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    -ms-align-items: center;
-    align-items: center;
-    margin: -30px 20px 0 auto;
-}
-
-.burger-close-lines::before {
-    content: '';
-    background: #fff;
-    width: 100%;
-    height: 2px;
-    position: absolute;
-    transform: rotate(45deg);
-}
-
-.burger-close-lines::after {
-    content: '';
-    background: #fff;
-    width: 100%;
-    height: 2px;
-    position: absolute;
-    transform: rotate(-45deg);
-}
-
-
-.menu {
-    display: none;
-    justify-content: flex-end;
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.3);
-    z-index: 10001;
-}
-
-.menu-content {
-    padding: 50px 0 0 0;
-    width: 60%;
-    height: 100%;
-    color: #fff;
-    background: #111111;
-    border-top: 1px solid #191919;
-    animation: to-left 0.7s 1 ease;
-}
-
-.menu-ul {
-    padding: 20px 10px;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    -ms-align-items: center;
-    align-items: center;
-}
-
-.li {
-    list-style: none;
-    display: flex;
-    transition: 0.2s all ease;
-}
-
-
-.menu-li {
-    display: blocks;
-    font-size: 16px;
-    width: 100%;
-    text-align: center;
-    border-bottom: 1px solid #191919;
-    padding: 15px 10px;
-}
-
-.menu-li:last-child {
-    border-bottom: none;
 }
 
 /* End Mobile-menu */
@@ -1654,7 +1510,6 @@ justify-content: space-between; */
     animation-duration: 1.7s;
     animation-fill-mode: both;
 }
-
 
 
 /* animation */
