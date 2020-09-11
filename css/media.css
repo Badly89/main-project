@@ -5,13 +5,18 @@
         max-width: 970px;
     }
 
-    section>* {
+    /* section>* {
         max-width: 970px;
-    }
+    } */
 
     .svg-arrow {
         width: 2em;
         height: 2em;
+    }
+
+    .intro-wrap{
+        left: 195px;
+        top: 170px;
     }
 
     .intro-up-title {
@@ -108,14 +113,6 @@
         font-size: 28px;
     }
 
-    section {
-        max-width: 720px;
-    }
-    .intro-inner {
-        /* max-width: 720px; */
-        padding-top: 65px;
-    }
-
     .widgets-body {
         flex-direction: column;
         align-items: center;
@@ -144,34 +141,18 @@
         font-size: 14px;
     }
 
-    /* .header-inner{
-        display: none;
-    } */
     .services {
-        max-width: 710px;
         justify-content: center;
-
     }
 
     .service-item:nth-child(2n)::after {
         content: '';
-
-    }
-
-    .service-item {
-        margin: 0;
-
     }
 
     .service-inner .service-icon:hover {
         color: orange;
         transform: scale(1);
         transition: all 0.4s;
-        /* fill: orange; */
-    }
-
-    .relize {
-        max-width: 710px;
     }
 
     .relize-content h2 {
@@ -183,91 +164,72 @@
     }
 
     .relize-image {
-        max-width: 710px;
+        /* max-width: 710px; */
         background-size: 75%;
         min-height: 365px;
+    }
+
+    .count-grid{
+        flex-direction: row;
     }
 
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
-    .container {
-        max-width: 360px;
+    .intro-wrap {
+        left: 0;
+        top: 66px;
+        /* padding: 70px 0; */
     }
 
-    section {
-        /* max-width: 320px; */
+    .intro-img{
         height: auto;
     }
-
-    .intro {
-        height: auto;
-        /* max-width: 320px; */
-
-    }
-
-    .intro-img {
-        height: 100vh;
-        /* max-width: 320px; */
-
-    }
-
     .navbar{
         display: block;
-        width: 100%;
+       
     }
 
+    .intro{
+        height: auto;
+    }
     .header-inner {
         display: none;
     }
 
-
-    .intro-wrap {
-        padding-top: 0px;
-
-    }
-
-    .intro-up-title {
-        font-size: 20px;
+   .intro-up-title {
+        font-size: 10px;
         font-weight: normal;
-        padding-bottom: 15px;
+        /* padding-bottom: 15px; */
     }
 
     .intro-title {
         font-family: Raleway, sans-serif;
-        font-size: 24px;
+        font-size: 13px;
         color: #fff;
         text-align: center;
-
     }
 
     .intro-text {
+        width: 250px;
         font-family: Raleway, sans-serif;
         font-size: 8px;
         color: #fff;
 
     }
 
-    .svg-arrow {
-        width: 2em;
-        height: 2em;
-    }
-
-    .arrow {
-        margin: 0 15px;
-    }
-
     .intro-btn {
-        font-size: 12px;
-        padding: 5px 10px;
+        padding: 5px 5px;
+        font-size: 10px;
+        width: auto;
     }
 
     .services {
-        max-width: 320px;
-        flex-wrap: wrap;
+        flex-direction: column;
         padding-top: 15px;
+        margin-bottom: 10px;
     }
 
     .service-icon {
@@ -288,22 +250,18 @@
     }
 
     .filter-project {
+        
         flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        align-content: center;
     }
 
-    .project-view{
-        width: 100%;
-        justify-content: stretch;
-        
-    }
 
     .list-portfolio {
-        justify-content: normal;
-        margin: 0;
-    }
-
-    .portfolio-items {
-        max-width: 220px;
+        /* justify-content: normal; */
+        margin: 20px 0;
     }
 
     .card-portfolio {
@@ -327,16 +285,13 @@
     .relize-content p {
         font-size: 12px;
     }
-
-    .relize-image {
-        max-width: 710px;
-        background-size: 75%;
-        min-height: 164px;
+    .reklama-left{
+        align-items: center;
     }
-
     .reklama-content {
         padding: 20px 0px 10px;
         flex-direction: column;
+        align-items: center;
     }
 
     .reklama-title {
@@ -355,31 +310,28 @@
 
     .btn-purchase {
         align-self: center;
-        width: 120px;
-        min-height: 50px;
-
+        /* width: 120px; */
+        
+        margin-top: 10px;
     }
+
 
     .btn-purchase-txt {
         margin: auto;
-        font-size: 10px;
+        font-size: 16px;
     }
 
     .count-grid {
         flex-direction: column;
     }
 
-    .mobile-service {
-        max-width: 320px;
-
-    }
-
-    .devices {
-        flex-direction: column;
-    }
-
-    .devices-img {
+    .mobile-img{
         display: none;
+    }
+
+    .devices-advantages {
+        
+        margin: 20px 0;
     }
 
     .presentation-description {
@@ -390,14 +342,11 @@
         display: none;
     }
 
-    .presentation-video {
-        max-width: 320px;
-    }
-
     .title {
         font-family: Raleway;
         font-size: 25px;
         font-weight: bold;
+        padding-top: 50px;
 
     }
 
@@ -434,4 +383,21 @@
         justify-content: inherit;
     }
 
+    .btn-more{
+        text-align: center;
+    }
+
+    .pagination-link{
+        max-width: 5px;
+        min-height: 5px;
+    }
+
+    .relize-image {
+        /* max-width: 710px; */
+        background-size: 75%;
+        min-height: 170px;
+    }
+    .inner-project{
+        padding-bottom: 15px;
+    }
 }

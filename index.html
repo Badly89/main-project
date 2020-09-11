@@ -82,55 +82,78 @@
 
 
     </header>
-    <section class="slider-block ">
-        <img src="img/bg-intro.jpg" alt="" class="intro-img">
-        <div class="intro" id="intro">
-            <div class="">
-                <div class="intro-inner">
-                    <div class="slider-content">
-                        <div class="arrow slide-left-animate">
-                            <svg viewBox="0 0 16 16" class="bi bi-chevron-left svg-arrow" fill="currentColor"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                    d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z">
-                                </path>
-                            </svg>
+
+    <section class="slider-block">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel ">
+
+            <ol class="carousel-indicators pagination">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active pagination-link">
+
+                </li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1" class="pagination-link"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2" class="pagination-link"></li>
+            </ol>
+            <div class="carousel-inner intro">
+                <div class="carousel-item active">
+                    <img src="img/bg-intro.jpg" class="d-block w-100 intro-img" alt="intro.">
+
+                    <div class="intro-wrap">
+                        <div class="intro-up-title ">Уникальный и Современный дизайн</div>
+                        <h2 class="intro-title ">PSD шаблонов</h2>
+                        <div class="intro-text ">
+                            Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.
+                            Прямо
+                            решила единственное вскоре использовало. Которое вопроса, бросил.
                         </div>
-                        <div class="intro-wrap">
-                            <div class="intro-up-title slide-down-animate">Уникальный и Современный дизайн</div>
-                            <h2 class="intro-title fadeIn">PSD шаблонов</h2>
-                            <div class="intro-text slide-down-animate ">
-                                Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.
-                                Прямо
-                                решила единственное вскоре использовало. Которое вопроса, бросил.
-                            </div>
-                        </div>
-                        <div class="arrow slide-left-animate">
-                            <svg viewBox="0 0 16 16" class="bi bi-chevron-right svg-arrow" fill="currentColor"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
-                                </path>
-                            </svg>
+
+                        <div class="block-btn">
+                            <a href="#" class="intro-btn text-center">Начать</a>
                         </div>
                     </div>
-                    <div class="block-btn ">
-                        <a href="#" class="intro-btn text-center slide-up-animate">Начать</a>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/bg-intro--ice.jpg" class="d-block w-100 intro-img" alt="intro-ice">
+                    <div class="intro-wrap">
+                        <div class="intro-up-title ">Уникальный и Современный дизайн</div>
+                        <h2 class="intro-title ">PSD шаблонов</h2>
+                        <div class="intro-text ">
+                            Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.
+                            Прямо
+                            решила единственное вскоре использовало. Которое вопроса, бросил.
+                        </div>
+                        <div class="block-btn">
+                            <a href="#" class="intro-btn text-center">Начать</a>
+                        </div>
+                    </div>
+                </div>
 
-                        <div class="pagination slide-down-animate">
-                            <a href="#" class="pagination-link"></a>
-                            <a href="#" class="pagination-link"></a>
-                            <a href="#" class="pagination-link"></a>
-                            <a href="#" class="pagination-link"></a>
-                            <a href="#" class="pagination-link"></a>
+                <div class="carousel-item">
+                    <img src="img/bg-intro--ice.jpg" class="d-block w-100 intro-img" alt="intro-ice">
+                    <div class="intro-wrap">
+                        <div class="intro-up-title ">Уникальный и Современный дизайн</div>
+                        <h2 class="intro-title ">PSD шаблонов</h2>
+                        <div class="intro-text ">
+                            Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.
+                            Прямо
+                            решила единственное вскоре использовало. Которое вопроса, бросил.
+                        </div>
+                        <div class="block-btn">
+                            <a href="#" class="intro-btn text-center">Начать</a>
                         </div>
                     </div>
                 </div>
 
             </div>
 
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-
     </section>
     <!-- конец верхнего блока -->
     <section class="main-service">
@@ -234,14 +257,20 @@
             </div>
             <div class="project-view">
                 <div class="block-filter">
-                    <ul class="filter-project ">
-                        <li class="filter-item">Show All</li>
-                        <li class="filter-item">Architecture</li>
-                        <li class="filter-item">Illustration</li>
-                        <li class="filter-item">Nature</li>
-                        <li class="filter-item">Photography</li>
-                        <li class="filter-item">Web Design</li>
-                    </ul>
+                    <div class="list-group list-group-horizontal filter-project container-fluid">
+                        <button type="button" class="list-group-item list-group-item-action filter-item">Show
+                            All</button>
+                        <button type="button"
+                            class="list-group-item list-group-item-action filter-item">Architecture</button>
+                        <button type="button"
+                            class="list-group-item list-group-item-action filter-item">Illustration</button>
+                        <button type="button" class="list-group-item list-group-item-action filter-item">Nature</button>
+                        <button type="button"
+                            class="list-group-item list-group-item-action filter-item">Photography</button>
+                        <button type="button" class="list-group-item list-group-item-action filter-item">Web
+                            Design</button>
+                    </div>
+
                 </div>
                 <div class="list-portfolio container ">
                     <!-- <div class="block-1 card-group"> -->
@@ -376,7 +405,7 @@
                 </div>
 
             </div>
-            <div>
+            <div class="btn-more">
                 <a href="#" class="btn-load-more slide-up-animate">Load more</a>
             </div>
 
@@ -406,51 +435,43 @@
         </div>
     </section>
     <section class="mobile-service">
-        <div class="container">
-            <div class="devices">
-                <div class="devices__item devices__item--left">
-                    <img src="img/hand.png" alt="" class="devices-img">
+        <div class="container mobile-body">
+            <div class="mobile-img">
+                <img src="img/iphone.png" alt="">
+            </div>
+            <div class="mobile-content">
+                <h2 class="section-title">Excellent for Mobile Devices.</h2>
+                <div class="section-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero doloremque
+                    molestiae corporis. Porro voluptates quis nisi voluptatibus iure consequatur, maiores officiis!
+                    Quibusdam quaerat voluptas rem repellat explicabo harum maxime officia praesentium corrupti saepe?
+                    Ut, hic?
                 </div>
+                <ul class="devices-advantages">
+                    <li class="item-icon">
+                        <i class="fas fa-arrow-circle-right "></i> Далеко-далеко за словесными горами в
+                        стране,
+                        гласных и
+                        согласных.
+                    </li>
+                    <li class="item-icon">
+                        <i class="fas fa-arrow-circle-right "></i> Далеко-далеко за словесными горами в стране,
+                        гласных и
+                        согласных.
+                    </li>
+                    <li class="item-icon">
+                        <i class="fas fa-arrow-circle-right "></i> Далеко-далеко за словесными горами в стране,
+                        гласных и
+                        согласных.
+                    </li>
+                    <li class="item-icon">
+                        <i class="fas fa-arrow-circle-right "></i> Далеко-далеко за словесными горами в стране,
+                        гласных и
+                        согласных.
+                    </li>
+                </ul>
+            </div>
+        </div>
 
-                <div class="devices-item ">
-                    <div class="section-inner section-inner-devices">
-                        <h2 class="section-title">
-                            Адаптивность для мобильных устройств
-                        </h2>
-                        <div class="section-text">
-                            <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.
-                                Что эта до рыбного однажды запятых не. Оксмокс переулка языком она продолжил которое
-                                вопроса агенство, гор что деревни! Это, ты.
-                            </p>
-                        </div>
-                    </div>
-
-                    <ul class="devices-advantages">
-                        <li class="item-icon">
-                            <i class="fas fa-arrow-circle-right "></i> Далеко-далеко за словесными горами в
-                            стране,
-                            гласных и
-                            согласных.
-                        </li>
-                        <li class="item-icon">
-                            <i class="fas fa-arrow-circle-right "></i> Далеко-далеко за словесными горами в стране,
-                            гласных и
-                            согласных.
-                        </li>
-                        <li class="item-icon">
-                            <i class="fas fa-arrow-circle-right "></i> Далеко-далеко за словесными горами в стране,
-                            гласных и
-                            согласных.
-                        </li>
-                        <li class="item-icon">
-                            <i class="fas fa-arrow-circle-right "></i> Далеко-далеко за словесными горами в стране,
-                            гласных и
-                            согласных.
-                        </li>
-                    </ul>
-                </div><!-- /.devices__item -->
-            </div><!-- /.devices -->
-        </div><!-- /.container -->
     </section>
     <section class="counter">
         <div class=" count-wrap">

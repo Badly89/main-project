@@ -116,45 +116,38 @@
 
 /* slide block */
 .slider-block {
-    position: relative;
-    width: 100%;
-    height: 100vh;
+    
    
 }
 
 .intro {
-    z-index: 5;
+   width: 100%;
+    height: 100vh;
    
 }
 
 .intro-img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    /* opacity: .5; */
-    /* z-index: -5; */
     background-size: cover;
     background-color: rgba(0, 0, 0, .3);
     /* background-position: 50% 50%; */
     /* background-color: rgba(0, 0, 0, 3); */
 }
 
-.slider-content {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 70px;
-}
-
 .intro-wrap {
-    /* width: 100%; */
+    position: absolute;
+    width: 100%;
     max-width: 595px;
-    padding-top: 70px;
+    /* padding-top: 70px;  */
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
     text-align: center;
 
     line-height: 1;
+
+    left: 500px;
+    top: 246px;
 }
 
 .intro-inner {
@@ -230,34 +223,34 @@
 
 .intro-btn:active {
     background-color: #998675;
-    color: orange;
+    color: gold;
 }
 
-.pagination {
-    /* margin-top: 150px; */
-    margin: 50px 0;
-    align-self: center;
-    max-width: 120px;
-    display: flex;
-    justify-content: center;
-
+.pagination{
+    margin: 0 auto;
 }
-
 .pagination-link {
     display: block;
-    width: 10px;
+    max-width: 10px;
     min-height: 10px;
     margin: 5px;
     background-color: white;
     border-radius: 50%;
-    border: 2px solid transparent;
+    /* border: 2px solid gold ; */
 }
 
 .pagination-link:hover {
-    /* border: 2px solid gold;
-     */
+    /* border: 1px solid gold; */
+    
     background-color: gold;
-    background-color: transparent(50%);
+    
+}
+
+.pagination-link:active {
+    /* border: 1px solid gold; */
+    
+    background-color: gold;
+    
 }
 
 .arrow {
@@ -517,7 +510,7 @@
     color: #fff;
 }
 
-.our-project {}
+
 
 .project-content {
     width: 100%;
@@ -541,21 +534,21 @@
 }
 
 .inner-project {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 0 80px 0;
-    overflow: hidden;
-    position: relative;
     /* display: flex;
     flex-direction: column;
+    align-items: center;*/
+    padding: 0 0 80px 0;
+    /*overflow: hidden;
+    position: relative; */
+    display: flex;
+    flex-direction: column;
     height: auto;
-    max-width: 1210px;
-    padding: 0 20px;
+    /* max-width: 1210px; */
+    /* padding: 0 20px; */
     position: relative;
-    margin: 0 auto;
-    padding-bottom: 0;
-    overflow: hidden; */
+    /* margin: 0 auto; */
+    /* padding-bottom: 0; */
+    overflow: hidden;
     /* width: 1180px; */
 }
 
@@ -572,9 +565,7 @@
 }
 
 .filter-project {
-    display: flex;
-    
-
+    /* display: flex; */
 }
 
 .filter-item {
@@ -582,7 +573,7 @@
     cursor: pointer;
     transition: all .3s;
     position: relative;
-list-style: none;
+    list-style: none;
     padding: 10px 20px;
     margin: 0 5px;
     border: 1px solid #ebebeb;
@@ -599,7 +590,7 @@ list-style: none;
 }
 
 .list-portfolio {
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 55px;
     display: grid;
     grid-template-columns: repeat(auto-fill, 320px);
@@ -608,13 +599,6 @@ list-style: none;
 
     /* grid-gap: 370px, 370px, 370px, 370px, 370px; */
     /* place-items: center stretch; */
-}
-
-.block-1,
-.block-2 {
-    display: flex;
-    /* justify-content: space-around; */
-    /* width: 90%; */
 }
 
 .portfolio-items {
@@ -791,10 +775,13 @@ i.fa-link {
     transform: scale(1.2);
 }
 
+.btn-more{
+    text-align: center;
+}
 
 .btn-load-more {
     display: inline-block;
-    /* width: 170px; */
+    width: 200px;
     align-self: center;
     text-decoration: none;
     color: #fff;
@@ -803,7 +790,7 @@ i.fa-link {
     padding: 20px 35px;
 
     font-family: 'Raleway', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 800;
     text-transform: uppercase;
 
@@ -914,25 +901,19 @@ i.fa-link {
     color: #8c8c8c;
 }
 
-.svg:active .presentation-video {}
 
 /*device*/
 .mobile-service {
     padding-top: 70px;
 }
 
-.devices {
+.mobile-content{
+    padding: 0 15px;
+}
+.mobile-body{
     display: flex;
-    /* flex-wrap: wrap;
-justify-content: space-between; */
-    align-items: center;
+    padding: 75px 0 0 0;
 }
-
-.section-inner-devices {
-    text-align: left;
-    max-width: none;
-}
-
 .section-title {
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
@@ -944,18 +925,20 @@ justify-content: space-between; */
 }
 
 .section-text {
-    font-weight: 300;
     font-size: 16px;
+    line-height: 1.8em;
+    color: #8c8c8c;
 }
 
 .devices-advantages {
     list-style: none;
-
+    margin: 70px 0 0 0;
 
 }
 
 .devices-img {
     width: 368px;
+    height: 100%;
     vertical-align: bottom;
 }
 
@@ -967,21 +950,28 @@ justify-content: space-between; */
 }
 
 .item-icon {
-    color: rgb(146, 22, 22);
+    color: #8c8c8c;
     font-size: 20px;
     padding-right: 10px;
     cursor: pointer;
+    
+    transition: all .5s ease-out;
+}
+
+.fa-arrow-circle-right{
+    transform: scaleX(1);
+    transition: all .5s ease-out;
 }
 
 .item-icon:hover .fa-arrow-circle-right {
     transform: scaleX(-1);
-    color: rgb(240, 180, 17);
+    color: red;
     transition: all .5s ease-out;
 }
 
 .item-icon:hover {
     transition: all .5s ease-in;
-    color: rgb(95, 72, 7);
+    color: rgb(240, 180, 17);
 
 }
 
