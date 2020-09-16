@@ -14,7 +14,7 @@
         height: 2em;
     }
 
-    .intro-wrap{
+    .intro-wrap {
         left: 195px;
         top: 170px;
     }
@@ -169,7 +169,7 @@
         min-height: 365px;
     }
 
-    .count-grid{
+    .count-grid {
         flex-direction: row;
     }
 
@@ -184,22 +184,24 @@
         /* padding: 70px 0; */
     }
 
-    .intro-img{
+    .intro-img {
         height: auto;
     }
-    .navbar{
+
+    /* .navbar{
         display: block;
        
-    }
+    } */
 
-    .intro{
+    .intro {
         height: auto;
     }
-    .header-inner {
-        display: none;
-    }
 
-   .intro-up-title {
+    /* .header-inner {
+        display: none;
+    } */
+
+    .intro-up-title {
         font-size: 10px;
         font-weight: normal;
         /* padding-bottom: 15px; */
@@ -250,7 +252,7 @@
     }
 
     .filter-project {
-        
+
         flex-direction: column;
         flex-wrap: wrap;
         text-align: center;
@@ -285,9 +287,11 @@
     .relize-content p {
         font-size: 12px;
     }
-    .reklama-left{
+
+    .reklama-left {
         align-items: center;
     }
+
     .reklama-content {
         padding: 20px 0px 10px;
         flex-direction: column;
@@ -311,7 +315,7 @@
     .btn-purchase {
         align-self: center;
         /* width: 120px; */
-        
+
         margin-top: 10px;
     }
 
@@ -325,12 +329,12 @@
         flex-direction: column;
     }
 
-    .mobile-img{
+    .mobile-img {
         display: none;
     }
 
     .devices-advantages {
-        
+
         margin: 20px 0;
     }
 
@@ -383,11 +387,11 @@
         justify-content: inherit;
     }
 
-    .btn-more{
+    .btn-more {
         text-align: center;
     }
 
-    .pagination-link{
+    .pagination-link {
         max-width: 5px;
         min-height: 5px;
     }
@@ -397,7 +401,8 @@
         background-size: 75%;
         min-height: 170px;
     }
-    .inner-project{
+
+    .inner-project {
         padding-bottom: 15px;
     }
 }
