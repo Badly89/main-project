@@ -1,8 +1,7 @@
 @media only screen and (max-width: 1024px) {
 
     .container {
-
-        max-width: 970px;
+       // max-width: 970px;
     }
 
     .svg-arrow {
