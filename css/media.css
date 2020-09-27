@@ -10,12 +10,7 @@
         height: 2em;
     }
 
-    .intro-wrap {
-        left: 195px;
-        top: 170px;
-    }
-
-    .intro-up-title {
+   .intro-up-title {
         font-size: 20px;
         font-weight: normal;
 
@@ -175,8 +170,7 @@
 @media screen and (max-width: 767px) {
 
     .intro-wrap {
-        left: 0;
-        top: 66px;
+       
         /* padding: 70px 0; */
     }
 
